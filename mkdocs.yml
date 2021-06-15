@@ -1,0 +1,53 @@
+site_name: POG.network
+site_url: "https://pog.network"
+docs_dir: "www"
+
+nav:
+  - Intro: "index.md"
+  - Specification: "!include ./projects/specification/mkdocs.yml"
+  - Documentation:
+      - Champ: "!include ./projects/champ/mkdocs.yml"
+
+plugins:
+  - monorepo
+  - search
+
+theme:
+  name: "material"
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.tabs.sticky
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      slugify: !!python/name:pymdownx.slugs.uslugify
+      toc_depth:
+        3
+        # repo_url: https://github.com/pognetwork/champ
+        # repo_name: pognetwork/champ
+
+        # extra:
+        #   social:
+        #     - icon: fontawesome/brands/github
+        #       link: https://github.com/pognetwork/champ
+        #       name: Github
+
+repo_url: https://github.com/pognetwork/champ
+repo_name: pognetwork/champ
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/pognetwork/champ
+      name: Github

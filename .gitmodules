@@ -1,0 +1,6 @@
+[submodule "projects/specification"]
+	path = projects/specification
+	url = https://github.com/pognetwork/specification
+[submodule "projects/champ"]
+	path = projects/champ
+	url = https://github.com/pognetwork/champ
