@@ -1,9 +1,10 @@
 site_name: POG.network
 site_url: "https://pog.network"
 docs_dir: "www"
+edit_uri: ""
 
 nav:
-  - Intro: "index.md"
+  - Intro: "README.md"
   - Specification: "!include ./projects/specification/mkdocs.yml"
   - Documentation:
       - Champ: "!include ./projects/champ/mkdocs.yml"
@@ -14,10 +15,15 @@ plugins:
 
 theme:
   name: "material"
+  logo: assets/pog.svg
+  custom_dir: overrides
+  font:
+    text: Quicksand
   features:
     - navigation.tabs
     - navigation.instant
     - navigation.tabs.sticky
+    - navigation.expand
   palette:
     - scheme: slate
       toggle:
@@ -28,7 +34,13 @@ theme:
         icon: material/toggle-switch
         name: Switch to dark mode
 
+extra_css:
+  - stylesheets/extra.css
+
 markdown_extensions:
+  - admonition
+  - meta
+  - pymdownx.details
   - toc:
       permalink: true
       slugify: !!python/name:pymdownx.slugs.uslugify

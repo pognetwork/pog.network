@@ -1,3 +1,6 @@
+---
+template: "home.html"
+---
 # POG.network
 
 ## What is POG?
