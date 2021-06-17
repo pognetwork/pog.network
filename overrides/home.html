@@ -1,16 +1,63 @@
 {% extends "main.html" %}
 
 <!-- uncomment to create custom homepage -->
-{# {% block tabs %} {{ super() }}
-<section class="mdx-container">
-  <div class="md-grid md-typeset">
-    <h1>Pog</h1>
-  </div>
-</section>
-{% endblock %} #}
+{% block tabs %} {{ super() }}
+<style>
+  .md-main {
+    display: none;
+  }
+  #background-animation {
+    background-color: #111111;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero {
+    padding: 0 1rem;
+    width: 100%;
+    max-width: 61rem;
+  }
+  .hero h1 {
+    font-size: 4vw;
+    color: white;
+  }
+</style>
 
-<!-- uncomment for custom footer/content -->
-{#
-<!-- {% block content %}{% endblock %} -->
-<!-- {% block footer %}{% endblock %} -->
-#}
+<div id="background-animation">
+  <section class="hero">
+    <div>
+      <h1>POG.network</h1>
+    </div>
+  </section>
+  <script
+    src="https://cdn.jsdelivr.net/npm/three@0.119.1/build/three.min.js"
+    integrity="sha256-vbZOK9FPLsRs9y5Z5FvqqQJ7R2GEUIFDpEX4W80cLOA="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.globe.min.js"
+    integrity="sha256-PrYw1bKMvBfjaLzMJnFIYN0Isw+92fhQn8fNesIhjYA="
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    (function () {
+      VANTA.GLOBE({
+        el: document.querySelector("#background-animation"),
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0x00b286,
+        backgroundColor: 0x111111,
+      });
+    })();
+  </script>
+</div>
+{% endblock %} {% block content %} {% endblock %} {% block footer %}
+<!-- TODO: custom footer -->
+{% endblock %}
