@@ -6,7 +6,6 @@
 
 .md-header {
   background: #00b286;
-  border-bottom: 2px solid #111111;
 }
 
 .md-tabs {
@@ -14,4 +13,5 @@
 }
 
 body {
+  height: 100%;
 }

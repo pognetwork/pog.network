@@ -3,8 +3,10 @@ site_url: "https://pog.network"
 docs_dir: "www"
 edit_uri: ""
 
+copyright: "&copy pog.network 2021"
+
 nav:
-  - Intro: "README.md"
+  - Home: "README.md"
   - Specification: "!include ./projects/specification/mkdocs.yml"
   - Documentation:
       - Champ: "!include ./projects/champ/mkdocs.yml"
