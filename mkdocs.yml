@@ -43,6 +43,8 @@ markdown_extensions:
   - admonition
   - meta
   - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.superfences
   - toc:
       permalink: true
       slugify: !!python/name:pymdownx.slugs.uslugify
