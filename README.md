@@ -8,26 +8,25 @@ We're utilising mkdocs to create a static website from all of these files and cl
 
 ## Requirements
 
-* `Python 3`
-* `$ pip install -r requirements.txt`
+- `Python 3`
+- `$ pip install -r requirements.txt`
 
 ## Development
 
-* Syncing Git Submodules (Updating the subpages):
-  * `git submodule sync`
-
-* Starting the development server:
-  * `mkdocs server`
+- Syncing Git Submodules (Updating the subpages):
+  - `git submodule sync`
+- Starting the development server:
+  - `mkdocs server`
 
 ### Commiting new changes
 
-* changes to sub-projects have to be committed to their repos, and then this main repo has to be updated (We might add automatic sub module syncing later on).\
+- changes to sub-projects have to be committed to their repos, and then this main repo has to be updated (We might add automatic sub module syncing later on).\
   **Example:**
-    * `$ cd projects/specification`
-    * `$ code . # update some files`
-    * `$ git add . && git commit -m "docs: updated some files"`
-    * `$ git push`
-    * `$ cd ../../ # go back to www`
-    * `$ git add .`
-    * `$ git commit -m "chore: update submodules"`
-    * `$ git push`
+  - `$ cd projects/specification`
+  - `$ code . # update some files`
+  - `$ git add . && git commit -m "docs: updated some files"`
+  - `$ git push`
+  - `$ cd ../../ # go back to www`
+  - `$ git add .`
+  - `$ git commit -m "chore: update submodules"`
+  - `$ git push`
