@@ -52,6 +52,8 @@ markdown_extensions:
   - meta
   - pymdownx.details
   - pymdownx.tabbed
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.superfences:
       # make exceptions to highlighting of code:
       custom_fences:
