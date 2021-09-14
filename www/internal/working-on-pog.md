@@ -19,6 +19,8 @@ These are some ideas for our mode of working on the project. Nothing is set in s
   Otherwise, you can ask anyone in the team for a short review or post it in the #blockers discord channel.
   <br/>
   These reviews shoudn't be too strict: Code Quality is important, however mostly stylistic or subjective qualities can be left as is and can at most be commented on.
+  <br/>
+  Also, when merging, squash and merge and try to follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) for the merge commit messages so we have a clean master branch history.
 
 - **Communicate**<br/>
   If any issues or uncertainty crops up, be sure to communicate them with the rest of the team as fast as possible, either through asyncronous communication or by jumping in a discord channel. Try to join the discord channels regulary to ideate, peer-program, discuss or just hang out.
