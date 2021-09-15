@@ -78,7 +78,10 @@
       <!-- Copyright and theme information -->
       <div class="md-footer-copyright">
         {% if config.copyright %}
-        <div class="md-footer-copyright__highlight">{{ config.copyright }}</div>
+        <div class="md-footer-copyright__highlight">
+          {{ config.copyright }}
+          <a href="/impressum">legal notice/privacy policy</a>
+        </div>
         {% endif %}
 
         <!-- sorry for removing this here, will be shown at a different location on our site. Nothing in the license forbids this... -->
