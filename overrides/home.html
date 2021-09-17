@@ -3,6 +3,9 @@
 <!-- uncomment to create custom homepage -->
 {% block tabs %} {{ super() }}
 <style>
+  .md-tabs {
+    overflow: unset;
+  }
   .md-main {
     position: absolute;
     height: 0;
@@ -11,7 +14,7 @@
     background-color: #111111;
     flex-grow: 1;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
@@ -23,24 +26,28 @@
   }
   .hero-wrapper {
     position: relative;
-    height: 0;
+    height: 100%;
     overflow: hidden;
-    padding-top: calc(32.25% + 5rem);
+    min-height: 45rem;
   }
-
   .hero {
+    min-height: 16rem;
     padding: 0 1rem;
     width: 100%;
     max-width: 61rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .hero h1 {
+    line-height: 1.1;
     font-size: calc(1vw + 2rem);
     color: white;
     margin: 0;
     background-image: linear-gradient(90deg, #05c394, #054387);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    line-height: 1;
   }
 
   .hero h2 {
@@ -51,7 +58,7 @@
   }
 
   .hero2 {
-    min-height: 16rem;
+    /* min-height: 16rem;
     margin: 0 auto;
     padding: 0 1rem;
     width: 100%;
@@ -59,24 +66,26 @@
     max-width: 61rem;
     flex: 1;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; */
 
-    background-image: radial-gradient(#dddffa48 1.55px, transparent 1.55px),
+    /* background-image: radial-gradient(#dddffa48 1.55px, transparent 1.55px),
       radial-gradient(#dddffa48 1.55px, #e5e5f700 1.55px);
     background-size: 62px 62px;
-    background-position: 0 0, 31px 31px;
+    background-position: 0 0, 31px 31px; */
   }
 
-  .hero2 > div {
-    margin: 3rem 0;
+  .hero2 {
+    margin-top: 10rem;
   }
 
   .hero2 h1 {
     margin-top: 0;
     font-size: 2rem;
+    color: white;
   }
   .hero2 p {
     font-size: 1rem;
+    color: white;
   }
   .link button {
     font-size: 1rem;
@@ -87,13 +96,19 @@
     padding: 0.2rem 0.3rem;
     margin-right: 0.8rem;
     margin-top: 0.8rem;
+    border: 1px solid black;
 
-    border-radius: 3px;
-    box-shadow: rgb(0 132 99) 4px 4px 0px 0px;
+    box-shadow: rgba(0 132 99 / 45%) 3px 3px 0px 0px;
     transition: all 0.1s ease-in-out;
   }
+  .md-tabs {
+    position: absolute;
+    top: 82px;
+    z-index: 3;
+    background: transparent;
+  }
   .link button:hover {
-    box-shadow: rgb(0 132 99) 5px 5px 0px 0px;
+    box-shadow: rgb(0 132 99) 4px 4px 0px 0px;
   }
 </style>
 
@@ -101,10 +116,29 @@
   <div id="background-animation">
     <section class="hero">
       <div>
-        <h1>POG.network</h1>
+        <h1>pog.network</h1>
         <h2>green money</h2>
       </div>
+
+      <div class="hero2">
+        <h1>What is POG.network?</h1>
+        <p>POG is a next-generation crypto currency without compromises.</p>
+        <p>
+          Currently, POG is still in a pre-production phase while we're working
+          hard on finalizing the specification.
+        </p>
+        <div class="link">
+          <a href="http://github.com/pognetwork"><button>Contribute</button></a>
+          <a href="/Specification"><button>Specification</button></a>
+          <a href="https://discord.gg/Z59Q55tWkQ"
+            ><button>Join our Discord</button></a
+          >
+        </div>
+      </div>
     </section>
+
+    <!-- <section class="hero2">
+    </section> -->
   </div>
   <script
     src="https://cdn.jsdelivr.net/npm/three@0.119.1/build/three.min.js"
@@ -127,29 +161,12 @@
         minWidth: 200.0,
         scale: 1.0,
         scaleMobile: 1.0,
-        color: 0x00b286,
+        color: 0x05718c,
+        // color: 0x00b286,
         backgroundColor: 0x111111,
       });
     })();
   </script>
-</div>
-
-<div class="hero2">
-  <div>
-    <h1>What is POG.network?</h1>
-    <p>POG is a next-generation crypto currency without compromises.</p>
-    <p>
-      Currently, POG is still in a pre-production phase while we're working hard
-      on finalizing the specification.
-    </p>
-    <div class="link">
-      <a href="http://github.com/pognetwork"><button>Contribute</button></a>
-      <a href="/Specification"><button>Specification</button></a>
-      <a href="https://discord.gg/Z59Q55tWkQ"
-        ><button>Join our Discord</button></a
-      >
-    </div>
-  </div>
 </div>
 
 {% endblock %} {% block content %} {% endblock %} {% block footer %}

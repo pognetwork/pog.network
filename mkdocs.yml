@@ -1,4 +1,4 @@
-site_name: POG.network
+site_name: pog.network
 site_url: "https://pog.network"
 docs_dir: "www"
 edit_uri: ""
@@ -23,7 +23,7 @@ theme:
   logo: assets/pog.svg
   custom_dir: overrides
   font:
-    text: Quicksand
+    text: Questrial
   features:
     - navigation.tabs
     - navigation.instant
