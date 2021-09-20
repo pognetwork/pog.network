@@ -82,3 +82,6 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/pognetwork/champ
       name: Github
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/pognetwork
+      name: Instagram
