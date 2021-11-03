@@ -3,6 +3,10 @@
 <!-- uncomment to create custom homepage -->
 {% block tabs %} {{ super() }}
 <style>
+  .md-nav__item--active {
+    display: none !important;
+  }
+
   .md-tabs {
     overflow: unset;
   }
@@ -108,6 +112,10 @@
   .link button:hover {
     box-shadow: 2px 4px 0.2rem rgb(0 0 0 / 57%),
       0 0.2rem 0.4rem rgb(0 0 0 / 36%);
+  }
+  .md-tabs__list {
+    width: fit-content;
+    background: #111;
   }
 </style>
 
