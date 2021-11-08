@@ -4,26 +4,34 @@ You can get an overview of the different contributors all of our git repos on gi
 
 <!-- prettier-ignore -->
 !!! info "Henry Gressmann ([@explodingcamera](https://github.com/explodingcamera))"
-    * [Champ:](https://github.com/pognetwork/champ)
-        * Rust Project architecture
-        * Documentation Overview & Architecture Diagram
-        * Block processing module
-        * Wallet Format & rust + wasm library generation/decryption/encryption
-        * Pluggable Storage Service (Using `sled` as our main database)
-        * gRPC Authentication & Access controll (Pair-Programming with Alexander Gemmingen)
-        * Crypto module (Pair-Programming with Alexander Gemmingen)
-    * [Catjam:](https://github.com/pognetwork/catjam)
+    * [Champ (Backend):](https://github.com/pognetwork/champ)
+        * Rust Project architecture [[1]](https://github.com/pognetwork/champ/commits/main?after=1470add68e748fd46f9479cfe0e3f1445d19fb95+69&branch=main) [[2]](https://github.com/pognetwork/champ/pull/1)
+        * Documentation Overview & Architecture Diagram [[1]](https://github.com/pognetwork/champ/blame/main/docs/developers/overview.md)
+        * Block processing module [[1]](https://github.com/pognetwork/champ/tree/main/champ/node/blockpool) [[2]](https://github.com/pognetwork/champ/pull/65)
+        * Wallet Format & rust + wasm library generation/decryption/encryption [[1]](https://github.com/pognetwork/champ/tree/main/champ/lib/champ-wasm) [[2]](https://github.com/pognetwork/champ/tree/main/champ/lib/lulw) [[2]](https://github.com/pognetwork/champ/pull/84)
+        * Pluggable Storage Service (Using `sled` as our main database) and all database code [[1]](https://github.com/pognetwork/champ/tree/main/champ/node/storage) [[2]](https://github.com/pognetwork/champ/pull/77) [[3]](https://github.com/pognetwork/champ/pull/68)
+        * gRPC Authentication & Access control (Pair-Programming with Alexander Gemmingen) [[1]](https://github.com/pognetwork/champ/pull/80) [[2]](https://github.com/pognetwork/champ/pull/66)
+        * Crypto module (Pair-Programming with Alexander Gemmingen) [[1]](https://github.com/pognetwork/champ/pull/84) [[2]](https://github.com/pognetwork/champ/pull/29)
+        * Config Managment [[1]](https://github.com/pognetwork/champ/pull/64)
+    * [Catjam (Frontend):](https://github.com/pognetwork/catjam)
         * Web Project architecture
-        * Wallet & Admin Panel Design
+        * [Wallet](https://wallet.pog.network) & Admin Panel Design
+    * [proto:](https://github.com/pognetwork/proto)
+        * Initial Setup
+        * API Types
+        * Rust Client + Server Crate
+        * Typescript/Javascript module & automated publishing
     * [pog.network:](https://github.com/pognetwork/pog.network)
         * Website design & content
         * First specification draft (Pair-Programming with Alexander Gemmingen)
         * Champ documentation (Pair-Programming with Alexander Gemmingen)
     * [Continous Integration Pipeline:](https://github.com/pognetwork/champ/search?q=ci&type=commits)
+        * [Continous Integration Pipeline](https://github.com/pognetwork/champ/tree/main/.github/workflows)
+        * Automated Canary Builds & Deployment (On my homeserver @ `pog-canary.explodingcamera.com`)
 
 <!-- prettier-ignore -->
 !!! info "Alexander Gemmingen ([@Alyks1](https://github.com/Alyks1))"
-    * [Champ:](https://github.com/pognetwork/champ)
+    * [Champ (Backend):](https://github.com/pognetwork/champ)
         * Designed Protobuf data
         * gRPC server endpoints
         * gRPC Authentication & Access controll (Pair-Programming with Henry Gressmann)
