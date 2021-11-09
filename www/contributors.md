@@ -13,12 +13,13 @@ You can get an overview of the different contributors all of our git repos on gi
         * gRPC Authentication & Access control (Pair-Programming with Alexander Gemmingen) [[1]](https://github.com/pognetwork/champ/pull/80) [[2]](https://github.com/pognetwork/champ/pull/66)
         * Crypto module (Pair-Programming with Alexander Gemmingen) [[1]](https://github.com/pognetwork/champ/pull/84) [[2]](https://github.com/pognetwork/champ/pull/29)
         * Config Managment [[1]](https://github.com/pognetwork/champ/pull/64)
+        * Tracing and Debug logging (Pair-Programming with Alexander Gemmingen) [[1]](https://github.com/pognetwork/champ/pull/86)
     * [Catjam (Frontend):](https://github.com/pognetwork/catjam)
         * Web Project architecture
         * [Wallet](https://wallet.pog.network) & Admin Panel Design
     * [proto:](https://github.com/pognetwork/proto)
         * Initial Setup
-        * API Types
+        * API Types (Pair-Programming with Alexander Gemmingen)
         * Rust Client + Server Crate
         * Typescript/Javascript module & automated publishing
     * [pog.network:](https://github.com/pognetwork/pog.network)
@@ -32,13 +33,16 @@ You can get an overview of the different contributors all of our git repos on gi
 <!-- prettier-ignore -->
 !!! info "Alexander Gemmingen ([@Alyks1](https://github.com/Alyks1))"
     * [Champ (Backend):](https://github.com/pognetwork/champ)
-        * Designed Protobuf data
-        * gRPC server endpoints
-        * gRPC Authentication & Access controll (Pair-Programming with Henry Gressmann)
-        * Designed graphs & calculations for the consensus algorithm
+        * gRPC server endpoints [[1]](https://github.com/pognetwork/champ/pull/69) [[2]](https://github.com/pognetwork/champ/pull/67) [[3]](https://github.com/pognetwork/champ/pull/33)
+        * gRPC Authentication & Access controll (Pair-Programming with Henry Gressmann) [[1]](https://github.com/pognetwork/champ/pull/66) [[2]](https://github.com/pognetwork/champ/pull/80)
+        * Designed graphs & calculations for the consensus algorithm [[1]](https://github.com/pognetwork/champ/pull/22)
         * Node admin CLI
-        * Block validation logic
-        * Crypto module (Pair-Programming with Henry Gressmann)
+        * Block validation logic [[1]](https://github.com/pognetwork/champ/pull/58) [[2]](https://github.com/pognetwork/champ/pull/59)
+        * Crypto module (Pair-Programming with Henry Gressmann) [[1]](https://github.com/pognetwork/champ/pull/28)
+        * Tracing and Debug logging (Pair-Programming with Henry Gressmann) [[1]](https://github.com/pognetwork/champ/pull/86)
+    * [proto:](https://github.com/pognetwork/proto)
+        * gRPC message and function declaration
+        * API Types (Pair-Programming with Henry Gressmann)
     * [pog.network:](https://github.com/pognetwork/pog.network)
         * Designed project specification (Pair-Programming with Henry Gressmann)
         * Champ documentation (Pair-Programming with Henry Gressmann)
