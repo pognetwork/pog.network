@@ -25,7 +25,7 @@ You can get an overview of the different contributors all of our git repos on gi
     * [pog.network:](https://github.com/pognetwork/pog.network)
         * Website design & content
         * First specification draft (Pair-Programming with Alexander Gemmingen)
-        * Champ documentation (Pair-Programming with Alexander Gemmingen)
+        * Champ documentation
     * [Continous Integration Pipeline:](https://github.com/pognetwork/champ/search?q=ci&type=commits)
         * [Continous Integration Pipeline](https://github.com/pognetwork/champ/tree/main/.github/workflows)
         * Automated Canary Builds & Deployment (On my homeserver @ `pog-canary.explodingcamera.com`)
@@ -45,5 +45,5 @@ You can get an overview of the different contributors all of our git repos on gi
         * gRPC message and function declaration
         * API Types (Pair-Programming with Henry Gressmann)
     * [pog.network:](https://github.com/pognetwork/pog.network)
-        * Designed project specification (Pair-Programming with Henry Gressmann)
-        * Champ documentation (Pair-Programming with Henry Gressmann)
+        * First specification draft (Pair-Programming with Henry Gressmann)
+        * Champ documentation
