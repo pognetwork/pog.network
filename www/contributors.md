@@ -11,7 +11,7 @@ You can get an overview of the different contributors all of our git repos on gi
         * Wallet Format & rust + wasm library generation/decryption/encryption [[1]](https://github.com/pognetwork/champ/tree/main/champ/lib/champ-wasm) [[2]](https://github.com/pognetwork/champ/tree/main/champ/lib/lulw) [[2]](https://github.com/pognetwork/champ/pull/84)
         * Pluggable Storage Service (Using `sled` as our main database) and all database code [[1]](https://github.com/pognetwork/champ/tree/main/champ/node/storage) [[2]](https://github.com/pognetwork/champ/pull/77) [[3]](https://github.com/pognetwork/champ/pull/68)
         * gRPC Authentication & Access control (Pair-Programming with Alexander Gemmingen) [[1]](https://github.com/pognetwork/champ/pull/80) [[2]](https://github.com/pognetwork/champ/pull/66)
-        * Crypto module (Pair-Programming with Alexander Gemmingen) [[1]](https://github.com/pognetwork/champ/pull/84) [[2]](https://github.com/pognetwork/champ/pull/29)
+        * Crypto module (Pair-Programming with Alexander Gemmingen) [[1]](https://github.com/pognetwork/champ/pull/28) [[2]](https://github.com/pognetwork/champ/pull/66) [[3]](https://github.com/pognetwork/champ/pull/84) [[4]](https://github.com/pognetwork/champ/pull/29)
         * Config Managment [[1]](https://github.com/pognetwork/champ/pull/64)
         * Tracing and Debug logging (Pair-Programming with Alexander Gemmingen) [[1]](https://github.com/pognetwork/champ/pull/86)
     * [Catjam (Frontend):](https://github.com/pognetwork/catjam)
@@ -34,11 +34,11 @@ You can get an overview of the different contributors all of our git repos on gi
 !!! info "Alexander Gemmingen ([@Alyks1](https://github.com/Alyks1))"
     * [Champ (Backend):](https://github.com/pognetwork/champ)
         * gRPC server endpoints [[1]](https://github.com/pognetwork/champ/pull/69) [[2]](https://github.com/pognetwork/champ/pull/67) [[3]](https://github.com/pognetwork/champ/pull/33)
-        * gRPC Authentication & Access controll (Pair-Programming with Henry Gressmann) [[1]](https://github.com/pognetwork/champ/pull/66) [[2]](https://github.com/pognetwork/champ/pull/80)
+        * gRPC Authentication & Access controll (Pair-Programming with Henry Gressmann) [[1]](https://github.com/pognetwork/champ/pull/80) [[2]](https://github.com/pognetwork/champ/pull/66)
         * Designed graphs & calculations for the consensus algorithm [[1]](https://github.com/pognetwork/champ/pull/22)
         * Node admin CLI
         * Block validation logic [[1]](https://github.com/pognetwork/champ/pull/58) [[2]](https://github.com/pognetwork/champ/pull/59)
-        * Crypto module (Pair-Programming with Henry Gressmann) [[1]](https://github.com/pognetwork/champ/pull/28)
+        * Crypto module (Pair-Programming with Henry Gressmann) [[1]](https://github.com/pognetwork/champ/pull/28) [[2]](https://github.com/pognetwork/champ/pull/66) [[3]](https://github.com/pognetwork/champ/pull/84) [[4]](https://github.com/pognetwork/champ/pull/29)
         * Tracing and Debug logging (Pair-Programming with Henry Gressmann) [[1]](https://github.com/pognetwork/champ/pull/86)
         * Have I been pwned Password Check [[1]](https://github.com/pognetwork/champ/pull/87)
     * [proto:](https://github.com/pognetwork/proto)
