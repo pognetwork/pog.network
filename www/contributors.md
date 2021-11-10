@@ -40,6 +40,7 @@ You can get an overview of the different contributors all of our git repos on gi
         * Block validation logic [[1]](https://github.com/pognetwork/champ/pull/58) [[2]](https://github.com/pognetwork/champ/pull/59)
         * Crypto module (Pair-Programming with Henry Gressmann) [[1]](https://github.com/pognetwork/champ/pull/28)
         * Tracing and Debug logging (Pair-Programming with Henry Gressmann) [[1]](https://github.com/pognetwork/champ/pull/86)
+        * Have I been pwned Password Check [[1]](https://github.com/pognetwork/champ/pull/87)
     * [proto:](https://github.com/pognetwork/proto)
         * gRPC message and function declaration
         * API Types (Pair-Programming with Henry Gressmann)
