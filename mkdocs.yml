@@ -14,6 +14,7 @@ nav:
   - Specification: "!include ./projects/specification/mkdocs.yml"
   - Documentation:
       - Champ: "!include ./projects/champ/mkdocs.yml"
+      - Proto: "!include ./projects/proto/mkdocs.yml"
 
 plugins:
   - monorepo

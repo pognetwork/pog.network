@@ -4,3 +4,6 @@
 [submodule "projects/champ"]
 	path = projects/champ
 	url = https://github.com/pognetwork/champ
+[submodule "projects/proto"]
+	path = projects/proto
+	url = https://github.com/pognetwork/proto
