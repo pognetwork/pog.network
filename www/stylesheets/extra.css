@@ -8,12 +8,17 @@
   background: #111111;
 }
 
+.md-footer-meta__inner {
+  align-items: center;
+}
+
 .md-header {
   background: linear-gradient(166deg, #05a091, #054387);
 }
 
 .md-tabs {
   background: #111;
+  top: initial !important;
 }
 
 .md-footer-copyright__highlight > a {

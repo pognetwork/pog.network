@@ -16,7 +16,7 @@ We're utilising mkdocs to create a static website from all of these files and cl
 - Syncing Git Submodules (Updating the subpages):
   - `git submodule sync`
 - Starting the development server:
-  - `mkdocs server`
+  - `mkdocs serve`
 
 ### Commiting new changes
 
