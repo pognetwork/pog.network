@@ -9,3 +9,20 @@ mermaid.initialize({
 mermaid.initialize = () => {}
 document$.subscribe(() => {
   if(mermaid !== undefined) mermaid.contentLoaded()})
+
+window.MathJax = {
+  tex: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    processEscapes: true,
+    processEnvironments: true
+  },
+  options: {
+    ignoreHtmlClass: ".*|",
+    processHtmlClass: "arithmatex"
+  }
+};
+
+document$.subscribe(() => { 
+  MathJax.typesetPromise()
+})
