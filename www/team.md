@@ -7,7 +7,7 @@
     <h1>Henry Gressmann  </h1>
     <span class="small-text">Co-Founder | <a href="https://henrygressmann.de">website</a>, <a href="https://github.com/explodingcamera">github</a></span>
     <br/>
-    I started <code>pog.network</code> to have an excuse for spending long hours nerding out about rust, cryptography and and economics.
+    I started <code>pog.network</code> to have an excuse for spending long hours nerding out about rust, cryptography, and economics.
 </div>
 
 <div class="person">
