@@ -4,12 +4,33 @@
   width: 2.2rem;
 }
 
+.person {
+  min-height: 8rem;
+}
+
+.person > h1 {
+  margin-top: 0 !important;
+}
+
+.person img {
+  float: left;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 100%;
+  margin-right: 2rem;
+}
+
+.small-text {
+  font-size: 1.2rem;
+}
+
 .md-footer-meta {
   background: #111111;
 }
 
 .md-footer-meta__inner {
   align-items: center;
+  font-family: "Space Mono";
 }
 
 .md-header {

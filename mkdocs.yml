@@ -6,11 +6,14 @@ edit_uri: ""
 copyright: "&copy pog.network 2021"
 
 nav:
-  - Home:
-      - Home: "README.md"
-      - Contributors: "contributors.md"
-      # - About: "about.md"
-      - Code of Conduct: "code-of-conduct.md"
+  - The Project:
+      - About: "about.md"
+      - Team: "team.md"
+  # - Home:
+  #     - Home: "README.md"
+  #     - Contributors: "contributors.md"
+  #     # - About: "about.md"
+  #     - Code of Conduct: "code-of-conduct.md"
   - Specification: "!include ./projects/specification/mkdocs.yml"
   - Documentation:
       - Champ: "!include ./projects/champ/mkdocs.yml"
@@ -29,6 +32,7 @@ theme:
   custom_dir: overrides
   font:
     text: Questrial
+    code: Space Mono
   features:
     - navigation.tabs
     - navigation.instant
