@@ -3,12 +3,11 @@ site_url: "https://pog.network"
 docs_dir: "www"
 edit_uri: ""
 
-copyright: "&copy pog.network 2021"
-
 nav:
   - The Project:
       - About: "about.md"
       - Team: "team.md"
+  - Team: "team.md"
   # - Home:
   #     - Home: "README.md"
   #     - Contributors: "contributors.md"

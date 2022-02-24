@@ -17,6 +17,7 @@
 
   .md-tabs {
     overflow: unset;
+    display: initial !important;
   }
   .md-main {
     position: absolute;
@@ -70,8 +71,11 @@
   }
   .link {
     display: flex;
+    flex-wrap: wrap;
   }
   .link button {
+    align-items: center;
+    line-height: 1.5;
     justify-content: center;
     display: flex;
     font-size: 1rem;
@@ -81,7 +85,7 @@
     margin-right: 0.8rem;
     margin-top: 0.8rem;
     transition: all 0.1s ease-in-out;
-    padding: 0.8rem 1rem;
+    padding: 0.8rem 1.2rem;
     border-radius: 0.4rem;
     backdrop-filter: blur(5px);
     background: #ffffff12;
@@ -103,7 +107,10 @@
   }
   .md-tabs__list {
     width: fit-content;
-    background: #111;
+    width: fit-content;
+    background: #1111114a;
+    border-radius: 7px;
+    backdrop-filter: blur(2px);
   }
 </style>
 
@@ -146,9 +153,6 @@
         </div>
       </div>
     </section>
-
-    <!-- <section class="hero2">
-    </section> -->
   </div>
   <script
     src="https://cdn.jsdelivr.net/npm/three@0.119.1/build/three.min.js"
@@ -183,7 +187,6 @@
 <div class="md-footer-meta md-typeset">
   <div class="md-footer-meta__inner md-grid">
     <div class="md-footer-copyright">
-      &copy; pog.network 2021
       <a href="/impressum">legal notice/privacy policy</a>
     </div>
 
