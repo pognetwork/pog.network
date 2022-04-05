@@ -1,7 +1,3 @@
-window.console.info = () => {}
-window.console.warn = () => {}
-window.console.log = () => {}
-
 mermaid.initialize({
   theme: "dark"
 });
@@ -22,7 +18,7 @@ window.MathJax = {
     processHtmlClass: "arithmatex"
   }
 };
-
+  
 document$.subscribe(() => { 
   MathJax?.typesetPromise?.()
 })

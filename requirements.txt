@@ -1,4 +1,4 @@
-mkdocs-material==8.1.7
-mkdocs-monorepo-plugin==0.5.2
-mkdocs==1.2.3
+mkdocs-material==8.2.8
+mkdocs-monorepo-plugin==1.0.1
+mkdocs==1.3.0
 mkdocs-mermaid2-plugin==0.5.2
