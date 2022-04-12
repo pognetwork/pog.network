@@ -1,4 +1,4 @@
-This is only relevant to pog.network as in this software. Pog.network the cryptocurrency is not operated by us, we're just creating the software powering the network.
+This is only relevant to pog.network as in this software. pog.network, the cryptocurrency is not operated by us; we're just creating the software powering the network.
 
 # legal notice
 

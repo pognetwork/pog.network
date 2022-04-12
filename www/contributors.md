@@ -1,6 +1,6 @@
-You can get an overview of the different contributors all of our git repos on github ([champ](https://github.com/pognetwork/champ/graphs/contributors), [catjam](https://github.com/pognetwork/catjam/graphs/contributors), [specification](https://github.com/pognetwork/specification/graphs/contributors)). In the following document, we want to give more in depth overview about who contributed what parts to the project:
+You can get an overview of the different contributors all of our git repos on github ([champ](https://github.com/pognetwork/champ/graphs/contributors), [catjam](https://github.com/pognetwork/catjam/graphs/contributors), [specification](https://github.com/pognetwork/specification/graphs/contributors)). In the following document, we want to give more in-depth overview about who contributed what parts to the project:
 
-**_NOTE_: This document is still a work in progress, feel free to add more information about your contributions to this project! This can also include small tasks specific to a university module.**
+**_NOTE_: This document is still a work in progress; feel free to add more information about your contributions to this project! This can also include small tasks specific to a university module.**
 
 <!-- prettier-ignore -->
 !!! info "Henry Gressmann ([@explodingcamera](https://github.com/explodingcamera))"
