@@ -3,7 +3,16 @@
 We're a team of software engineers who take a critical look at the current ecosystem of crypto-nonsense and want to do something about it: no NFTs, no ICO, no Founder's bonus.
 We want to build a fast, easy to use, and most importantly, not climate destroying base for the next generation of decentralized applications.
 
-## Zero bullshit. Just cool tech.
+# Our Mission
+
+To enable fair and transparent economic growth while maintaining climate neutrality.
+
+We want to accomplish this goal while still staying true to the original vision of bitcoin: creating a currency that knows no geographical boundaries and which exists outside of the control of individual states and companies.
+
+Unfortunately, wealth in the cryptocurrency ecosystem is slowly accumulating in the hands of the very few, bridging the gap to centralized power once again. Linking account balance to voting power goes against the fair and decentralized vision cryptocurrencies claim to stand for.
+
+With POG, power is earned, not bought.
+To avoid power abuse and maintain its integrity, POG has devised its own consensus mechanism for calculating voting power. Read more about Delegated Proof of Importance here.
 
 # Protocol TLDR
 

@@ -6,8 +6,8 @@ edit_uri: ""
 nav:
   - The Project:
       - About: "about.md"
-      - Team: "team.md"
-  - Team: "team.md"
+      # - Why pog.network?: "why.md"
+      - Our Team: "team.md"
   # - Home:
   #     - Home: "README.md"
   #     - Contributors: "contributors.md"
