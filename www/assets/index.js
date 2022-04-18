@@ -1,24 +1,22 @@
 mermaid.initialize({
-  theme: "dark"
+  theme: "dark",
 });
+mermaid.initialize = () => {};
 
-mermaid.initialize = () => {}
 document$.subscribe(() => {
-  if(mermaid !== undefined) mermaid.contentLoaded()})
+  if (mermaid !== undefined) mermaid.contentLoaded();
+  Object.assign(window.MathJax, {
+    tex: {
+      inlineMath: [["\\(", "\\)"]],
+      displayMath: [["\\[", "\\]"]],
+      processEscapes: true,
+      processEnvironments: true,
+    },
+    options: {
+      ignoreHtmlClass: ".*|",
+      processHtmlClass: "arithmatex",
+    },
+  });
 
-window.MathJax = {
-  tex: {
-    inlineMath: [["\\(", "\\)"]],
-    displayMath: [["\\[", "\\]"]],
-    processEscapes: true,
-    processEnvironments: true
-  },
-  options: {
-    ignoreHtmlClass: ".*|",
-    processHtmlClass: "arithmatex"
-  }
-};
-  
-document$.subscribe(() => { 
-  MathJax?.typesetPromise?.()
-})
+  MathJax?.typesetPromise?.();
+});
